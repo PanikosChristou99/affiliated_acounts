@@ -43,8 +43,8 @@ class TwitterClient():
 class TwitterAuthenticator():
 
     def authenticate_twitter_app(self):
-        auth = OAuthHandler(./twitter_credentials.py.CONSUMER_KEY, ./twitter_credentials.py.CONSUMER_SECRET)
-        auth.set_access_token(./twitter_credentials.py.ACCESS_TOKEN, ./twitter_credentials.py.ACCESS_TOKEN_SECRET)
+        auth = OAuthHandler(twitter_credentials.py.CONSUMER_KEY, twitter_credentials.CONSUMER_SECRET)
+        auth.set_access_token(twitter_credentials.py.ACCESS_TOKEN, twitter_credentials.ACCESS_TOKEN_SECRET)
         return auth
 
 
